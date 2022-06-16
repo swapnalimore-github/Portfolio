@@ -1,0 +1,25 @@
+{
+    "about": {
+        "name": "Swapnali More",
+        "designation": "Senior Systems Engineer",
+        "intro": "I'm a software engineer specialised in frontend and backend development for complex scalable web apps. I write about software development on my blog. Want to know how I may help your project? Check out my project portfolio and online resume.",
+        "profileImg": "",
+        "shortIntro": "Hi, my name is Simon Doe and I'm a senior software engineer. Welcome to my personal website!",
+        "imgIntro": ""
+    },
+
+    "social" : {
+        "linkedin": "",
+        "instagram": "",
+        "github": ""
+    },
+
+    "whatIDo": [
+        {
+            "icons": {
+                "icon1": "",
+                "icon2": ""
+            }
+        }
+    ]
+}

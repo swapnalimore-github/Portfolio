@@ -1,0 +1,175 @@
+.left-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 3rem;
+    background: $primary-color;
+    max-width: 30rem;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.right-container {
+    padding: 3rem;
+    padding-left: 33rem;
+}
+
+.profile {
+    &-title {
+        color: #fff;
+    }
+
+    &-img {
+        width: 15rem;
+        height: 15rem;
+        display: block;
+        margin: 0 auto;
+        border: 2px solid #fff;
+    }
+
+    &-text {
+        color: #fff;
+        font-weight: 300;
+    }
+}
+
+.social-media {
+    &-list {
+        background-color: transparent;
+        padding: 0;
+        border: 0;
+        border-radius: 100%;
+        margin: 0 0.5rem;
+
+        .nav-link {
+            border-radius: 100%;
+            padding: 0.5rem;
+            background-color: #fff;
+            width: 3rem;
+            height: 3rem;
+            font-size: 1.6rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $bg-color;
+
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+}
+
+.navigation {
+    padding: 0 3rem;
+
+    a {
+        font-size: 1.6rem;
+        color: #fff;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        padding: 0.8rem 0;
+        text-decoration: none;
+
+        svg {
+            font-size: 2rem;
+            margin-right: 1rem;
+        }
+
+        &:hover {
+            color: $bg-color;
+        }
+
+        &.active {
+            color: $bg-color;
+        }
+    }
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 0;
+    font-size: 1.4rem;
+
+    &-primary {
+        background-color: $primary-color;
+        border-color: $primary-color;
+
+        &:hover,
+        &:visited,
+        &:active {
+            background-color: transparent;
+            border-color: $primary-color;
+            color: $primary-color;
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+
+    &-secondary {
+        background-color: $bg-color;
+        border-color: $bg-color;
+
+        &:hover,
+        &:visited,
+        &:active {
+            background-color: transparent;
+            border-color: $bg-color;
+            color: $bg-color;
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+
+    
+}
+
+.aboutMe {
+    padding-bottom: 6rem;
+}
+
+.whatIDo {
+    padding: 6rem 0 0;
+
+    &__skills {
+        padding: 2rem 0;
+
+        svg {
+            font-size: 3rem;
+        }
+
+        .display-6 {
+            font-weight: 500;
+        }
+    }
+}
+
+.portfolio {
+    &__card {
+        margin: 2rem 0;
+        border: 2px solid $primary-color;
+
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .display-6 {
+            font-weight: 500;
+            color: $primary-color;
+        }
+        &:hover {
+            background-color: $primary-color;
+
+            .display-6 {
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+h1, h2, h3, h4, h5, h6 {
+    color: $bg-color;
+}
+
+p {
+    color: $bg-color;
+    font-size: 1.3rem;
+}
+
+.desc-1 {
+    font-size: 1.5rem;
+}
+
+.display-3 {
+    font-weight: 600;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 3.4rem;
+    position: relative;
+    color: $bg-color;
+    &:before {
+        content: '';
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        background-color: $primary-color;
+        width: 0.5rem;
+        height: 100%;
+    }
+}
+
+.display-4 {
+    font-size: 3rem;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 2rem;
+    &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0.5rem;
+        background-color: $primary-color;
+        width: 5rem;
+        height: 0.5rem;
+    }
+}
+
+.display-6 {
+    font-size: 2rem;
+    font-weight: 300;
+}
